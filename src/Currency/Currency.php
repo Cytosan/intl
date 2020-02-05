@@ -22,6 +22,13 @@ final class Currency
     protected $name;
 
     /**
+     * The currency subunit name.
+     *
+     * @var string
+     */
+    protected $subunit;
+
+    /**
      * The numeric currency code.
      *
      * @var string
@@ -73,6 +80,9 @@ final class Currency
             $this->fractionDigits = $definition['fraction_digits'];
         }
         $this->locale = $definition['locale'];
+	    if (isset($definition['subunit'])) {
+		    $this->subunit = $definition['subunit'];
+	    }
     }
 
     /**
@@ -155,5 +165,17 @@ final class Currency
     public function getLocale()
     {
         return $this->locale;
+    }
+
+    /**
+     * Gets the currency subunit.
+     *
+     * TThis value is locale specific.
+     *
+     * @return string
+     */
+    public function getSubunit()
+    {
+        return $this->subunit;
     }
 }

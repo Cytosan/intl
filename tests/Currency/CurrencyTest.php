@@ -40,6 +40,7 @@ final class CurrencyTest extends TestCase
             // Dummy value, intentionally different from the default.
             'fraction_digits' => 3,
             'locale' => 'fr',
+	        'subunit' => 'cent',
         ];
         $currency = new Currency($definition);
 
@@ -50,5 +51,6 @@ final class CurrencyTest extends TestCase
         $this->assertEquals($definition['symbol'], $currency->getSymbol());
         $this->assertEquals($definition['fraction_digits'], $currency->getFractionDigits());
         $this->assertEquals($definition['locale'], $currency->getLocale());
+        $this->assertEquals($definition['subunit'], $currency->getSubUnit());
     }
 }

@@ -35,7 +35,7 @@
   "AUD": {
     "name": "澳大利亚元",
     "symbol": "AU$",
-    "subUnit": "分"
+    "subunit": "分"
   },
   "MOP": {
     "name": "澳门币"
@@ -119,7 +119,7 @@
   },
   "PHP": {
     "name": "菲律宾比索",
-    "subUnit": "分"
+    "subunit": "分"
   },
   "FJD": {
     "name": "斐济元"
@@ -139,7 +139,7 @@
   "HKD": {
     "name": "港元",
     "symbol": "HK$",
-    "subUnit": "仙"
+    "subunit": "仙"
   },
   "COP": {
     "name": "哥伦比亚比索"
@@ -168,7 +168,7 @@
   "KRW": {
     "name": "韩元",
     "symbol": "￦",
-    "subUnit": "钱"
+    "subunit": "钱"
   },
   "ANG": {
     "name": "荷属安的列斯盾"
@@ -189,7 +189,7 @@
     "name": "加拿大元",
     "symbol": "CA$",
     "short_name": "加元",
-    "subUnit": "分"
+    "subunit": "分"
   },
   "GHS": {
     "name": "加纳塞地"
@@ -254,7 +254,7 @@
   "MYR": {
     "name": "马来西亚林吉特",
     "short_name": "马币",
-    "subUnit": "仙"
+    "subunit": "仙"
   },
   "MKD": {
     "name": "马其顿第纳尔"
@@ -268,7 +268,7 @@
   "USD": {
     "name": "美元",
     "symbol": "US$",
-    "subUnit": "分"
+    "subunit": "分"
   },
   "MNT": {
     "name": "蒙古图格里克"
@@ -319,18 +319,18 @@
   "EUR": {
     "name": "欧元",
     "symbol": "€",
-    "subUnit": "分"
+    "subunit": "分"
   },
   "CNY": {
     "name": "人民币",
     "symbol": "¥",
     "short_name": "元",
-    "subUnit": "分"
+    "subunit": "分"
   },
   "JPY": {
     "name": "日元",
     "symbol": "JP¥",
-    "subUnit": "钱"
+    "subunit": "钱"
   },
   "SEK": {
     "name": "瑞典克朗"
@@ -338,7 +338,7 @@
   "CHF": {
     "name": "瑞士法郎",
     "short_name": "瑞郎",
-    "subUnit": "分"
+    "subunit": "分"
   },
   "SVC": {
     "name": "萨尔瓦多科朗"
@@ -391,7 +391,7 @@
   },
   "THB": {
     "name": "泰铢",
-    "subUnit": "撒丹"
+    "subunit": "撒丹"
   },
   "TZS": {
     "name": "坦桑尼亚先令"
@@ -445,17 +445,17 @@
   "SGD": {
     "name": "新加坡元",
     "short_name": "新币",
-    "subUnit": "分"
+    "subunit": "分"
   },
   "TWD": {
     "name": "新台币",
     "symbol": "NT$",
-    "subUnit": "分"
+    "subunit": "分"
   },
   "NZD": {
     "name": "新西兰元",
     "symbol": "NZ$",
-    "subUnit": "仙"
+    "subunit": "仙"
   },
   "HUF": {
     "name": "匈牙利福林"
@@ -492,7 +492,7 @@
   "GBP": {
     "name": "英镑",
     "symbol": "£",
-    "subUnit": "便士"
+    "subunit": "便士"
   },
   "JOD": {
     "name": "约旦第纳尔"

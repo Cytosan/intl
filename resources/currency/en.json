@@ -23,7 +23,7 @@
   "AUD": {
     "name": "Australian Dollar",
     "symbol": "A$",
-    "subUnit": "Cent"
+    "subunit": "Cent"
   },
   "AZN": {
     "name": "Azerbaijani Manat"
@@ -68,11 +68,11 @@
   "GBP": {
     "name": "British Pound",
     "symbol": "£",
-    "subUnit": "Penny"
+    "subunit": "Penny"
   },
   "BND": {
     "name": "Brunei Dollar",
-    "subUnit": "Sen"
+    "subunit": "Sen"
   },
   "BGN": {
     "name": "Bulgarian Lev"
@@ -86,7 +86,7 @@
   "CAD": {
     "name": "Canadian Dollar",
     "symbol": "CA$",
-    "subUnit": "Cent"
+    "subunit": "Cent"
   },
   "CVE": {
     "name": "Cape Verdean Escudo"
@@ -108,7 +108,7 @@
   "CNY": {
     "name": "Chinese Yuan",
     "symbol": "CN¥",
-    "subUnit": "Fen"
+    "subunit": "Fen"
   },
   "COP": {
     "name": "Colombian Peso"
@@ -159,7 +159,7 @@
   "EUR": {
     "name": "Euro",
     "symbol": "€",
-    "subUnit": "Cent"
+    "subunit": "Cent"
   },
   "FKP": {
     "name": "Falkland Islands Pound"
@@ -197,7 +197,7 @@
   "HKD": {
     "name": "Hong Kong Dollar",
     "symbol": "HK$",
-    "subUnit": "Cent"
+    "subunit": "Cent"
   },
   "HUF": {
     "name": "Hungarian Forint"
@@ -228,7 +228,7 @@
   "JPY": {
     "name": "Japanese Yen",
     "symbol": "¥",
-    "subUnit": "Sen"
+    "subunit": "Sen"
   },
   "JOD": {
     "name": "Jordanian Dinar"
@@ -274,7 +274,7 @@
   },
   "MYR": {
     "name": "Malaysian Ringgit",
-    "subUnit": "Sen"
+    "subunit": "Sen"
   },
   "MVR": {
     "name": "Maldivian Rufiyaa"
@@ -316,12 +316,12 @@
   "TWD": {
     "name": "New Taiwan Dollar",
     "symbol": "NT$",
-    "subUnit": "Cent"
+    "subunit": "Cent"
   },
   "NZD": {
     "name": "New Zealand Dollar",
     "symbol": "NZ$",
-    "subUnit": "Cent"
+    "subunit": "Cent"
   },
   "NIO": {
     "name": "Nicaraguan Córdoba"
@@ -331,7 +331,7 @@
   },
   "KPW": {
     "name": "North Korean Won",
-    "subUnit": "Chon"
+    "subunit": "Chon"
   },
   "NOK": {
     "name": "Norwegian Krone"
@@ -356,7 +356,7 @@
   },
   "PHP": {
     "name": "Philippine Piso",
-    "subUnit": "Centavo"
+    "subunit": "Centavo"
   },
   "PLN": {
     "name": "Polish Zloty"
@@ -396,7 +396,7 @@
   },
   "SGD": {
     "name": "Singapore Dollar",
-    "subUnit": "Cent"
+    "subunit": "Cent"
   },
   "SBD": {
     "name": "Solomon Islands Dollar"
@@ -410,7 +410,7 @@
   "KRW": {
     "name": "South Korean Won",
     "symbol": "₩",
-    "subUnit": "Jeon"
+    "subunit": "Jeon"
   },
   "SSP": {
     "name": "South Sudanese Pound"
@@ -435,7 +435,7 @@
   },
   "CHF": {
     "name": "Swiss Franc",
-    "subUnit": "Reppen"
+    "subunit": "Reppen"
   },
   "SYP": {
     "name": "Syrian Pound"
@@ -448,7 +448,7 @@
   },
   "THB": {
     "name": "Thai Baht",
-    "subUnit": "Satang"
+    "subunit": "Satang"
   },
   "TOP": {
     "name": "Tongan Paʻanga"
@@ -483,7 +483,7 @@
   "USD": {
     "name": "US Dollar",
     "symbol": "$",
-    "subUnit": "Cent"
+    "subunit": "Cent"
   },
   "UZS": {
     "name": "Uzbekistani Som"

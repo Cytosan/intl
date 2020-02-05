@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5158db04-93d1-4795-9e43-06042766d639" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/intl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/intl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/currency/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/currency/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/currency/th.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/currency/th.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/currency/zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/currency/zh.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Currency/Currency.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Currency/Currency.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Currency/CurrencyRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Currency/CurrencyRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Currency/CurrencyRepositoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Currency/CurrencyRepositoryTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Currency/CurrencyTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Currency/CurrencyTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +27,41 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/mikey179/vfsstream" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1XN2ygRUBUCu2jlb3XM34sSR9dc" />
   <component name="PropertiesComponent">
@@ -39,6 +81,17 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="LocaleTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="CommerceGuys\Intl\Tests\LocaleTest" file="$PROJECT_DIR$/tests/LocaleTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.LocaleTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -49,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580872487164</updated>
-      <workItem from="1580872488529" duration="1919000" />
+      <workItem from="1580872488529" duration="4393000" />
     </task>
     <servers />
   </component>
