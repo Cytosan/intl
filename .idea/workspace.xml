@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5158db04-93d1-4795-9e43-06042766d639" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/currency/en-001.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/currency/en-001.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/currency/zh-Hant.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/currency/zh-Hant.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/currency/zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/currency/zh.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
