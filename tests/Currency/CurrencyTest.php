@@ -40,7 +40,10 @@ final class CurrencyTest extends TestCase
             // Dummy value, intentionally different from the default.
             'fraction_digits' => 3,
             'locale' => 'fr',
-	        'subunit' => 'cent',
+	        'subunit' => [
+		        'singular' => 'Cent',
+		        'plural' => 'Cents',
+	        ],
         ];
         $currency = new Currency($definition);
 

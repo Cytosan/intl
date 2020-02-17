@@ -25,7 +25,10 @@ final class CurrencyRepositoryTest extends TestCase
 			'USD' => [
 				'name'    => 'US Dollar',
 				'symbol'  => '$',
-				'subunit' => 'Cent'
+				'subunit' => [
+					'singular' => 'Cent',
+					'plural'   => 'Cents',
+				]
 			],
 		],
 		'es' => [
@@ -33,8 +36,8 @@ final class CurrencyRepositoryTest extends TestCase
 				'name' => 'dinar serbio',
 			],
 			'USD' => [
-				'name'   => 'dólar estadounidense',
-				'symbol' => 'US$',
+				'name'    => 'dólar estadounidense',
+				'symbol'  => 'US$',
 				'subunit' => 'Centavo'
 			],
 		],
@@ -43,8 +46,8 @@ final class CurrencyRepositoryTest extends TestCase
 				'name' => 'Serbischer Dinar',
 			],
 			'USD' => [
-				'name'   => 'US-Dollar',
-				'symbol' => '$',
+				'name'    => 'US-Dollar',
+				'symbol'  => '$',
 				'subunit' => 'Cent'
 			],
 		],
@@ -107,7 +110,12 @@ final class CurrencyRepositoryTest extends TestCase
 		$this->assertEquals('US Dollar', $currency->getName());
 		$this->assertEquals('$', $currency->getSymbol());
 		$this->assertEquals('en', $currency->getLocale());
-		$this->assertEquals('Cent', $currency->getSubUnit());
+		$this->assertArrayHasKey('singular', $currency->getSubUnit());
+		$this->assertArrayHasKey('plural', $currency->getSubUnit());
+		$this->assertEquals([
+			'singular' => 'Cent',
+			'plural'   => 'Cents',
+		], $currency->getSubUnit());
 	}
 
 	/**

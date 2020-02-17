@@ -23,7 +23,10 @@
   "AUD": {
     "name": "Australian Dollar",
     "symbol": "A$",
-    "subunit": "Cent"
+    "subunit": {
+      "singular": "Cent",
+      "plural": "Cents"
+    }
   },
   "AZN": {
     "name": "Azerbaijani Manat"
@@ -68,7 +71,10 @@
   "GBP": {
     "name": "British Pound",
     "symbol": "£",
-    "subunit": "Penny"
+    "subunit": {
+      "singular": "Penny",
+      "plural": "Pence"
+    }
   },
   "BND": {
     "name": "Brunei Dollar",
@@ -86,7 +92,10 @@
   "CAD": {
     "name": "Canadian Dollar",
     "symbol": "CA$",
-    "subunit": "Cent"
+    "subunit": {
+      "singular": "Cent",
+      "plural": "Cents"
+    }
   },
   "CVE": {
     "name": "Cape Verdean Escudo"
@@ -159,7 +168,10 @@
   "EUR": {
     "name": "Euro",
     "symbol": "€",
-    "subunit": "Cent"
+    "subunit": {
+      "singular": "Cent",
+      "plural": "Cents"
+    }
   },
   "FKP": {
     "name": "Falkland Islands Pound"
@@ -197,7 +209,10 @@
   "HKD": {
     "name": "Hong Kong Dollar",
     "symbol": "HK$",
-    "subunit": "Cent"
+    "subunit": {
+      "singular": "Cent",
+      "plural": "Cents"
+    }
   },
   "HUF": {
     "name": "Hungarian Forint"
@@ -316,12 +331,18 @@
   "TWD": {
     "name": "New Taiwan Dollar",
     "symbol": "NT$",
-    "subunit": "Cent"
+    "subunit": {
+      "singular": "Cent",
+      "plural": "Cents"
+    }
   },
   "NZD": {
     "name": "New Zealand Dollar",
     "symbol": "NZ$",
-    "subunit": "Cent"
+    "subunit": {
+      "singular": "Cent",
+      "plural": "Cents"
+    }
   },
   "NIO": {
     "name": "Nicaraguan Córdoba"
@@ -396,7 +417,10 @@
   },
   "SGD": {
     "name": "Singapore Dollar",
-    "subunit": "Cent"
+    "subunit": {
+      "singular": "Cent",
+      "plural": "Cents"
+    }
   },
   "SBD": {
     "name": "Solomon Islands Dollar"
@@ -483,7 +507,10 @@
   "USD": {
     "name": "US Dollar",
     "symbol": "US$",
-    "subunit": "Cent"
+    "subunit": {
+      "singular": "Cent",
+      "plural": "Cents"
+    }
   },
   "UZS": {
     "name": "Uzbekistani Som"

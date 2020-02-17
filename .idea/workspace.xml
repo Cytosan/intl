@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5158db04-93d1-4795-9e43-06042766d639" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/currency/zh-Hant.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/currency/zh-Hant.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/currency/zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/currency/zh.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/currency/en-001.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/currency/en-001.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/currency/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/currency/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Currency/CurrencyRepositoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Currency/CurrencyRepositoryTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +14,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -74,9 +76,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.LocaleTest">
     <configuration name="LocaleTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="CommerceGuys\Intl\Tests\LocaleTest" file="$PROJECT_DIR$/tests/LocaleTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -96,6 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580872487164</updated>
       <workItem from="1580872488529" duration="4393000" />
+      <workItem from="1581906728432" duration="1071000" />
     </task>
     <servers />
   </component>
@@ -107,7 +114,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
